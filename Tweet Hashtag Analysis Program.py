@@ -15,9 +15,3 @@ tweets = [
     "Regular expressions in #python #coding"
 ]
 
-# Extract hashtags using regular expressions
-# I used the re.findall() function to search for patterns that match hashtags
-hashtags = []
-for tweet in tweets:
-    hashtags.extend(re.findall(r"#(\w+)", tweet))
-
